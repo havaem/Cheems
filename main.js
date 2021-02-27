@@ -1,4 +1,5 @@
-let i=0;
+window.addEventListener('DOMContentLoaded', () => {
+    let i=0;
 function changeImage() {
     document.getElementById('example').src="./img/hitcheems2.png";
     var audio = new Audio('sound.mp3');
@@ -32,3 +33,5 @@ function check(){
         myElement.style.fontSize="85px";
     }
 }
+
+});
