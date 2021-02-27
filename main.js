@@ -18,11 +18,12 @@ function check(){
     var myElement = document.getElementById("text");
     document.getElementById("text").innerHTML = i;
     if(i==55){
-        document.getElementById("text").innerHTML = "Chó Nhân";
+        document.getElementById("text").innerHTML = "Thanks for using!";
     }
     if(i>=20){
         myElement.style.background=" rgb(255, 102, 0)";
         myElement.style.fontSize="55px";
+        document.getElementById("text").innerHTML = "Thanks for using!";
     }
     if(i>=40){
         myElement.style.background=" rgb(40, 197, 53)";
